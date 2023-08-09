@@ -1,0 +1,52 @@
+.Modal {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+}
+.ModalContent {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.ModalContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  border: 1px solid #fe5f1e;
+  border-radius: 10px;
+  background-color: white;
+}
+.ModalContent {
+  width: 200px;
+}
+.ModalContent li:hover {
+  background-color: #ffd0bd5d;
+}
+.ModalContent li {
+  font-size: 17px;
+  background-color: white;
+  cursor: pointer;
+  padding: 8px 41px;
+  width: 118px;
+}
+.ModalContent li:first-child {
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.ModalContent li:last-child {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.ModalContent .active {
+  font-weight: bold;
+  color: #fe5f1e;
+  background-color: #ffd0bd5d;
+}

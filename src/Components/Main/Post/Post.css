@@ -1,0 +1,107 @@
+.Post {
+  max-width: 200px;
+}
+.PostContent {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.PostContentImage img {
+  width: 200px;
+}
+.PostContentTitle {
+  text-align: center;
+  margin: 0 0 6px 0;
+}
+.PostContentTitle h2 {
+  font-size: 20px;
+  font-family: 'Mulish';
+  width: 300px;
+}
+.PostContentSettings {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(230, 230, 230);
+  padding: 4px 6px;
+  border-radius: 10px;
+  margin: 4px 0;
+}
+.PostContentSettingsSort {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 0px 0;
+  border-radius: 40px;
+  margin: 4px 0;
+}
+.PostContentSettingsSort .active {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 3px 0 black;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+.PostContentSettingsSize {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 2px 10px;
+  border-radius: 40px;
+  margin: 4px 0;
+}
+.PostContentSettingsSize .active {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 3px 0 black;
+  padding: 4px 10px;
+  border-radius: 5px;
+}
+.PostContentSettingsSort li {
+  font-size: 13px;
+  font-family: 'Mulish', sans-serif;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.PostContentSettingsSize li {
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.PostContentSettingsSize {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.PostContentBottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.PostContentBottomSelect {
+  padding: 0 4px;
+}
+.PostContentBottomPrice {
+  padding: 0 4px;
+}
+.PostContentBottomSelect button {
+  font-size: 16px;
+  border: none;
+  margin: 0 0 0 2px;
+  background-color: #fe5f1e;
+  padding: 6px 16px;
+  border-radius: 40px;
+  color: white;
+  font-family: 'Mulish', sans-serif;
+}
+.PostContentBottomPrice p {
+  font-size: 18px;
+  font-family: 'Poppins';
+}

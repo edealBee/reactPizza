@@ -1,0 +1,43 @@
+.HeaderSearch {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid rgb(212, 212, 212);
+  padding: 6px;
+  border-radius: 10px;
+  position: relative;
+}
+.HeaderSearch img {
+  opacity: 0.4;
+  padding: 4px 2px 4px 4px;
+}
+.HeaderSearch input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: black;
+  font-size: 15px;
+  font-family: 'Bitter', sans-serif;
+  width: 300px;
+  height: 20px;
+  padding: 0 6px;
+  font-family: sans-serif;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.HeaderSearch button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  position: absolute;
+  right: 12px;
+  top: 0;
+  bottom: 0;
+}
+.HeaderSearch svg {
+  fill: #999999;
+  transition: all 0.4s ease;
+}
+.HeaderSearch button:hover > svg {
+  fill: black;
+}

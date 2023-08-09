@@ -1,0 +1,104 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  background-color: white;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  max-width: 1100px;
+  max-height: 60px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  box-shadow: 0 0 5px 0;
+  z-index: 1000;
+}
+.HeaderMenuCatalog {
+  display: flex;
+  align-items: center;
+}
+.HeaderMenuCatalog li {
+  color: black;
+  font-size: 16px;
+  font-family: 'Mulish', sans-serif;
+  padding: 0 10px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.HeaderMenuCatalog li:hover {
+  color: #777777;
+}
+.HeaderMenuCatalog li:after {
+  display: inline-block;
+  width: 4px;
+  height: 1px;
+  background-color: #fffb00;
+  position: absolute;
+}
+.HeaderLogo {
+  display: flex;
+  align-items: center;
+}
+.HeaderLogo h1 {
+  color: black;
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+  padding: 0 0 0 2px;
+}
+.HeaderMenuCatalog li {
+  position: relative;
+  transition: all 0.4s ease;
+}
+.HeaderMenuCatalog li:last-child {
+  position: relative;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+    sans-serif;
+  font-size: 17px;
+}
+.HeaderMenuCatalog li:last-child svg {
+  padding: 0 2px;
+}
+.HeaderMenuCatalog li:last-child a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.HeaderMenuCatalog li .cartBtn {
+  text-decoration: none;
+  border: 1px solid #fe5f1e;
+  border-radius: 40px;
+  padding: 8px 14px;
+  background-color: #fe5f1e;
+  transition: all 0.4s ease;
+}
+.HeaderMenuCatalog li .cartBtn p {
+  display: flex;
+  align-items: center;
+  padding: 0 4px 0 3px;
+  color: white;
+}
+.HeaderMenuCatalog li a .summ {
+  padding: 0 6px 0 4px;
+  color: white;
+}
+.HeaderMenuCatalogDelimiter {
+  width: 1px;
+  height: 16px;
+  background-color: white;
+}
+.HeaderMenuCatalog li a {
+  text-decoration: none;
+  color: black;
+}
+.HeaderMenuCatalog li .cartBtn:hover {
+  background-color: #ff4800;
+}
+@media (max-width: 1020px) {
+  .HeaderMenuCatalog li:first-child {
+    display: none;
+  }
+}

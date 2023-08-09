@@ -1,0 +1,28 @@
+.NotFound {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+  width: 1050px;
+  min-height: 600px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.NotFoundContent {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.NotFoundContent h1 {
+  margin: 0 auto;
+  font-size: 40px;
+  font-family: 'Mulish';
+  text-transform: uppercase;
+}
+.NotFoundContent p {
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

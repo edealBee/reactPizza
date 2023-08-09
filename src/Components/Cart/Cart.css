@@ -1,0 +1,166 @@
+.NoneCart {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 1050px;
+  min-height: 600px;
+  background-color: white;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  position: relative;
+}
+.Cart {
+  display: flex;
+  align-items: center;
+  width: 1050px;
+  min-height: 150px;
+  background-color: white;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 20px 0 45px 0;
+  position: relative;
+  flex-direction: column;
+}
+.emptyCart {
+  text-align: center;
+}
+.emptyCart h2 {
+  font-size: 40px;
+  font-family: 'Mulish';
+}
+.emptyCart p {
+  font-size: 18px;
+  font-family: 'Mulish';
+}
+.CartContent {
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
+  min-height: 100px;
+  min-width: 500px;
+}
+.CartContent li {
+  padding: 0 0 20px 0;
+}
+.CartHeader {
+  display: flex;
+  align-items: center;
+  position: relative;
+  align-content: center;
+  justify-content: space-evenly;
+  width: 900px;
+  margin: 0 0 35px 0;
+}
+.CartTitle {
+  margin: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  right: 15px;
+}
+.CartTitle h2 {
+  font-size: 25px;
+  font-family: 'Mulish';
+}
+.CartTitle img {
+  width: 25px;
+  padding: 0 6px 0 0;
+}
+.CartForm {
+  display: flex;
+  align-items: center;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  width: 950px;
+  right: 10px;
+  position: relative;
+}
+.CartFooter {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 4px 0 0 0;
+  position: relative;
+}
+#order {
+  margin: 0 0 0 7px;
+  padding: 8px 12px;
+  font-weight: 400;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  background-color: #fe5f1e;
+  color: white;
+  font-family: 'Mulish';
+  font-size: 16px;
+  cursor: pointer;
+}
+#toBack {
+  padding: 8px 12px;
+  border-radius: 40px;
+  border: none;
+  font-size: 16px;
+  border: 1px solid #c5c5c5;
+  color: #afafaf;
+  background-color: transparent;
+  font-family: 'Mulish';
+  outline: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+#toBack img {
+  width: 12px;
+  padding-right: 2px;
+}
+.CartBtnClean {
+  position: relative;
+  top: 7px;
+  left: 15px;
+}
+.CartBtnClean button img {
+  width: 15px;
+  padding-right: 3px;
+}
+.CartBtnClean button {
+  font-size: 14px;
+  font-family: 'Mulish';
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #afafaf;
+  cursor: pointer;
+}
+.CartFooter::before {
+  content: '';
+  position: absolute;
+  width: 650px;
+  height: 1px;
+  top: -17.5px;
+  left: 250px;
+  background-color: #dadada;
+}
+.CartTotal {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 1150px;
+  position: relative;
+  left: 10px;
+  margin: 0 auto;
+  font-family: 'Mulish';
+  font-size: 17px;
+  margin: 0 0 20px 0;
+}
+#sum {
+  color: #fe5f1e;
+}
